@@ -43,18 +43,6 @@
 }
 
 
-/*navbar stuff*/
-
-.container-fluid .row 
-{
-    width: 100%;
-    height: auto;
-}
-
-
-
-
-
 /* footer stuff*/
 .footer {
     position: fixed;
