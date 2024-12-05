@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/styles/styles.css" rel="stylesheet">
+    <link rel="icon" href="../images/nostalsite_logo.ico" type="image/x-icon">
+    <title>nostalsite</title>
+</head>
+<body>
+    <div class="header">
+        <a href="/index.html"><img src="../images/nostalsite_logo.png" alt="nostalsite logo" class="n_logo"></a>
+        <form>
+            <input type="text" placeholder="search..." id="name">
+            <button type="submit" onclick="search()"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+
+      <div class="container-fluid">
+        <div class="row">
+                <nav class="navbar navbar-expand-md
+                        justify-content-start
+                        navbar-custom navbar-dark">
+
+                    <!-- Responsive Button for the smaller menu -->
+                    <button class="navbar-toggler" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center " id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <!-- Links -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/media.html">[ media ]</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/wiki.html">wiki</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/pages/journal.html">journal</a>
+                            </li>
+    
+                            <!-- Dropdown -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
+                                   data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    contact
+                                </a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="/pages/contact.html">contact form</a>
+                                    <a class="dropdown-item" href="https://www.discord.com">disc</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+           
+       
+    </div>
+    
+     <footer class="footer page-footer font-small ">
+         <div class="container">
+            <div class="row">
+                <span class="text-muted">&copy; Keidy Alcantara, 2024 |  Terms Of Use  |  Privacy Statement</span>
+            </div>
+         </div>
+      </footer>
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+<script src="/js/search.js"></script>
+
+</html>
