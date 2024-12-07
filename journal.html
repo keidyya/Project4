@@ -61,6 +61,23 @@
            
        
     </div>
+
+
+    <div class="profile">
+        <div class="journal_img">
+            <img src="images/ghost.jpg" alt="cute ghost picture">
+            <br>
+            <p id="datetime">hi</p>
+        </div>
+        <form action="upload.js" method="post" enctype="multipart/form-data"> 
+            <div class="image">
+                <img src="images/ghost.jpg" alt="cute ghost image">
+            </div>
+            <input type="file" class="user-file" accept="image/jpeg, image/png, image/jpg"> 
+          </form>
+        <div id="clear"></div>
+    </div>
+
     
      <footer class="footer page-footer font-small ">
          <div class="container">
@@ -77,5 +94,6 @@
         crossorigin="anonymous">
 </script>
 <script src="js/search.js"></script>
-
+<script src="js/datetime.js"></script>
+<script src="js/upload.js"></script> 
 </html>
