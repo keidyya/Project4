@@ -75,6 +75,23 @@
         padding-left: 200px;
   }
 
+  .profile .wiki img
+  {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    margin: auto;
+  }
+
+  .profile .wiki
+  {
+    width: 300px;
+    float: left;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
   #clear {
     clear: both;
   }
